@@ -224,6 +224,12 @@ h2 {
     color: var(--text-main);
 }
 
+.project-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
 .tech-tags {
     margin-bottom: 1rem;
 }
