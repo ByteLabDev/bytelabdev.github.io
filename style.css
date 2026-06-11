@@ -352,3 +352,37 @@ footer {
         display: none;
     }
 }
+
+.name-container {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--text-main);
+    min-height: 5.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#crunch-name {
+    display: flex;
+    align-items: center;
+}
+
+#crunch-name span {
+    display: inline-block;
+    white-space: pre;
+    will-change: transform, opacity, width;
+}
+
+/* Target the hidden segments to be closed on page load */
+#crunch-name .drop,
+#crunch-name .space {
+    width: 0;
+    opacity: 0;
+}
+
+/* Style the top-level domain in your orange accent color */
+#crunch-name .tld {
+    color: var(--accent);
+}
