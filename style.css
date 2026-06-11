@@ -36,7 +36,7 @@ body {
     background-color: #F3DDB9;
     backdrop-filter: blur(8px);
     border-bottom: 1px solid var(--border-color);
-    box-shadow: 0 10px 10px rgba(33, 37, 41, 0.);
+    box-shadow: 0 10px 10px rgba(33, 37, 41, 0.05);
     z-index: 1000;
 }
 

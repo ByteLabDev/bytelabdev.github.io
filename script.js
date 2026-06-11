@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('load', () => {
     const animate = Motion.animate;
 
     const dropElements = document.querySelectorAll('#crunch-name .drop');
